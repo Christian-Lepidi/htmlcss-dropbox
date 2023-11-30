@@ -70,5 +70,32 @@
     width: 70%;
     min-height: 550px;
     margin: auto;
-    background-color: beige; 
+    background-color: beige;
+    display: flex; 
 }
+
+.column{
+    width: calc(100% / 5);
+    min-height: 450px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.orange{
+    background-color: orange;
+}
+
