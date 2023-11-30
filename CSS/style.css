@@ -3,28 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 /*HEADER*/
 .header{
     width: 100%;
     height: 70px;
-    background-color: greenyellow;
     display: flex;
     justify-content: space-between;
 }
 
 .header-section{
-    width: 25%;
+    width: 30%;
     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.first{
-    background-color: blue;
+.logo{
+    width: 75px;
+    height: 30px;
 }
 
-.second{
-    background-color: brown;
+.header-links{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+.header-button{
+    padding: 10px 20px;
+    background-color: rgb(61, 61, 169);
+    color: white;
 }
 
 .jumbotron-container{
@@ -33,11 +48,56 @@
     background-color: rgb(201, 252, 252);
 }
 
+.jumbotron-title{
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    font-size: 30px;
+}
+
 .jumbotron{
     width: 70%;
-    height: 600px;
+    height: 400px;
     margin: auto;
-    background-color: rgb(142, 75, 75);
+    display: flex;
+}
+
+.jumbotron-text{
+    width: 35%;
+    height: 500px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.start-content{
+    margin: 60px;
+}
+
+.start-link{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: rgb(61, 61, 169);
+    color: white;
+}
+
+.start-content2{
+    padding-top: 50px; 
+}
+
+i{
+    color: rgb(17, 17, 17);
+    margin-bottom: 2px;
+   
+}
+
+.jumbotron-image{
+    width: 65%;
+    height: 450px;
+}
+
+.jumbo-png{
+    position: relative;
+    margin-top: 70px;
 }
 
 .first-main-section{
@@ -49,11 +109,42 @@
 
 .second-main-section{
     width: 100%;
-    min-height: 900px;
+    height: 600px;
     background-color: aqua;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100% / 2);
+    height: calc(100 / 2);
+}
+
+.division{
+    width: calc(100% / 3);
+    height: 600px;
+}
+
+.center{
+    background-color: darkgoldenrod;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 .third-main-section{
+    width: 100%;
+    min-height: 300px;
+    background-color: chartreuse; 
+}
+
+.fourth-main-section{
     width: 60%;
     min-height: 700px;
     margin: auto;
@@ -68,7 +159,7 @@
 
 .footer-container{
     width: 70%;
-    min-height: 550px;
+    min-height: 450px;
     margin: auto;
     background-color: beige;
     display: flex; 
@@ -76,7 +167,7 @@
 
 .column{
     width: calc(100% / 5);
-    min-height: 450px;
+    height: 450px;
 }
 
 .green{
