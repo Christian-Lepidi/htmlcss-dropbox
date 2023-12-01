@@ -376,7 +376,6 @@ img{
 
 .eighth-main-section{
     width: 100%;
-    
     display: flex;
 }
 
@@ -473,8 +472,33 @@ img{
     width: 70%;
     min-height: 450px;
     margin: auto;
-    background-color: beige;
     display: flex; 
+}
+
+.footer-container2{
+    width: 70%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.footer-border{
+    width: 10%;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+.finals-icons{
+    margin-top: 60px;
+}
+
+.fas{
+    color: white;
+}
+
+.final-text{
+    color: white;
 }
 
 .column{
@@ -482,23 +506,52 @@ img{
     height: 450px;
 }
 
+.footer-title{
+    margin-top: 50px;
+}
+
+.h4-footer{
+    color: white;
+}
+
+.footer-links-container1{
+    margin-top: 50px;
+}
+
+.footer-links-container{
+    margin-top: 20px;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+}
+
 .green{
-    background-color: green;
+    background-color: rgb(167, 244, 167);
+}
+
+.brown{
+    background-color: rgb(168, 58, 58);
+}
+
+.azure{
+    background-color: rgb(12, 110, 110);
 }
 
 .red{
-    background-color: red;
+    background-color: rgb(242, 35, 35);
+}
+
+.lightblue{
+    background-color: rgb(201, 252, 252);
 }
 
 .blue{
-    background-color: blue;
+    background-color: rgb(39, 39, 207);
 }
 
-.grey{
-    background-color: grey;
-}
-
-.orange{
-    background-color: orange;
+.yellow{
+    background-color: rgb(204, 204, 45);
 }
 
