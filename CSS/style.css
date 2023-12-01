@@ -188,6 +188,89 @@ img{
 }
 
 .second-main-section{
+    width: 70%;
+    min-height: 400px;
+    margin: 40px auto;
+    background-color: darkgoldenrod;
+}
+
+.third-main-section{
+    width: 70%;
+    min-height: 600px;
+    margin: 40px auto;
+    background-color: rgb(125, 14, 14);
+    display: flex;
+}
+
+.third-section-image{
+    width: 65%;
+    min-height: 600px;
+    background-color: grey;
+}
+
+.third-section-text{
+    width: 35%;
+    min-height: 600px;
+    background-color: rgb(212, 61, 212);
+}
+
+.fourth-main-section{
+    width: 70%;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+.fifth-main-section{
+    width: 70%;
+    min-height: 600px;
+    margin: auto;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-column-left{
+    width: calc(100% / 3 - 20px);
+    min-height: 600px;
+    background-color: rgb(152, 69, 230);
+}
+
+.fifth-column-center{
+    width: calc(100% / 3 - 20px);
+    min-height: 600px;
+    background-color: aquamarine;  
+}
+
+.fifth-column-right{
+    width: calc(100% / 3 - 20px);
+    min-height: 600px;
+    background-color: cornflowerblue; 
+}
+
+.sixth-main-section{
+    width: 70%;
+    min-height: 600px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: darkkhaki;
+   display: flex; 
+   justify-content: space-between;
+}
+
+.seventh-main-section{
+    width: 70%;
+    min-height: 350px;
+    margin:auto;
+    background-color: dodgerblue;
+}
+
+.eighth-main-section{
     width: 100%;
     height: 600px;
     background-color: aqua;
@@ -218,13 +301,20 @@ img{
     flex-wrap: wrap; 
 }
 
-.third-main-section{
+.ninth-main-section{
     width: 100%;
     min-height: 300px;
     background-color: chartreuse; 
 }
 
-.fourth-main-section{
+.ninth-sub-section{
+    width: 70%;
+    min-height: 300px;
+    margin: auto;
+    background-color: bisque;
+}
+
+.tithe-main-section{
     width: 60%;
     min-height: 700px;
     margin: auto;
